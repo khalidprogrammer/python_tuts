@@ -20,24 +20,23 @@
 #  Now Decorator can modify the function functionality
 
 
-def funcparam(funct1,funct2):
+def funcparam(funct1):
     def add ():
         funct1()
         print(f"sum is {5+6}")
         print(f"minus:{6-3}")
-        funct2(3)
+
     return add
 
 
 
-def power_func(a):
-    return a*a
+@funcparam
 
 def who_is_khalid():
     print("Khalid is a good boy")
 
-who_is_khalid = funcparam(who_is_khalid,power_func)
-print(who_is_khalid)
+
+who_is_khalid()
 
 
 
