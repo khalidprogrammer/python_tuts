@@ -27,9 +27,9 @@ if __name__ == '__main__':
     # eyes_time = time()
     excercise_time = time()
     #  time in seconds
-    water_secs = 30*60
+    water_secs = 10
     # eyes_secs = 40*60
-    excercise_secs = 40*60
+    excercise_secs = 10
 
     while True:
         if time() - water_time > water_secs:

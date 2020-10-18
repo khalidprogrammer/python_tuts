@@ -40,7 +40,7 @@ rohan = Employee.from_dash("Rohan-200-student")
 usman = Employee.from_slash("usman/300/student")
 
 
-harry.set_salary(-300)
+harry.set_salary(500)
 
 
 print(harry.printDetail())

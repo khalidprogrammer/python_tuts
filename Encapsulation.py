@@ -14,5 +14,5 @@ class Computer:
 
 c = Computer()
 
-c.setMaxPrice(-1000)
+c.setMaxPrice(1000)
 c.sell()
